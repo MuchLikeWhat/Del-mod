@@ -233,7 +233,7 @@
 				"name": "Chivalry",
 				"row": 6,
 				"prerequisites": ["Civil Service","Guilds"],
-   "uniques": ["Enables Defensive Pacts"],
+                                "uniques": ["Enables Defensive Pacts"],
 				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
@@ -346,7 +346,7 @@
 			{
 				"name": "You... shall not... PASS!!",
 				"row": 6,
-				"prerequisites": ["Navigation","Architecture","Economics","Metallurgy","Chemistry",],
+				"prerequisites": ["Navigation","Architecture","Economics","Metallurgy","Chemistry"],
 				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
 				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
 			},
@@ -355,9 +355,9 @@
 	{
 		"columnNumber": 10,
 		"era": "Industrial era",
-		"techCost": 001600,
-		"buildingCost": 00300,
-		"wonderCost": 00750,
+		"techCost": 999999999,
+		"buildingCost": 9999999,
+		"wonderCost": 999999,
 		"techs": [
 			{
 				"name": "Archaeology",
