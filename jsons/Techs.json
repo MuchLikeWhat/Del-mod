@@ -476,9 +476,8 @@
 		"techs": [
 			{
 				"name": "Steam Power",
-				"row": 5,
-				"prerequisites":[You... shall not... PASS!!],
-				
+				"row": 1,
+				"prerequisites":["Flight"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
