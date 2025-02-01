@@ -407,7 +407,7 @@
 			{
 				"name": "Railroads",
 				"row": 7,
-				"prerequisites": ["Steam Power","Dynamite"],
+				"prerequisites": ["Dynamite"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			},
 		]
@@ -421,7 +421,7 @@
 		"techs": [
 			{
 				"name": "You... shall not... PASS!!",
-				"row": 6,
+				"rorow": 7,
 				"prerequisites": ["Railroads"],
 				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
 				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
@@ -477,7 +477,7 @@
 			{
 				"name": "Steam Power",
 				"row": 1,
-				"prerequisites":["Flight"],
+				"prerequisites":["Refrigeration"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
@@ -528,7 +528,7 @@
 			{
 				"name": "Rifling",
 				"row": 7,
-				"prerequisites": ["Plastics"],
+				"prerequisites": ["Ballistics"],
 				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
 			{
