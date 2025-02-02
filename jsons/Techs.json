@@ -426,6 +426,19 @@
 				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
 				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
 			},
+			{
+				"name": "Rifling",
+				"row": 1,
+				"prerequisites": ["Railroads"],
+				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+			},
+			{
+				"name": "Steam Power",
+				"row": 1,
+				"prerequisites":["Railroads"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+
 		]
 	},
 	{
@@ -475,12 +488,6 @@
 		"wonderCost": 1299999950,
 		"techs": [
 			{
-				"name": "Steam Power",
-				"row": 1,
-				"prerequisites":["Refrigeration"],
-				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
-			},
-			{
 				"name": "Plastics",
 				"row": 3,
 				"prerequisites": ["Replaceable Parts"],
@@ -524,12 +531,6 @@
 				"row": 4,
 				"prerequisites": ["Plastics","Electronics"],
 				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
-			},
-			{
-				"name": "Rifling",
-				"row": 7,
-				"prerequisites": ["Ballistics"],
-				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
 			{
 				"name": "Radar",
