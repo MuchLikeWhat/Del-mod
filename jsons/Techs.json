@@ -365,7 +365,6 @@
 				"name": "Military Science",
 				"row": 9,
 				"prerequisites": ["Metallurgy","Chemistry"],
-				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
 			},
 			{
@@ -436,6 +435,7 @@
 				"name": "Steam Power",
 				"row": 5,
 				"prerequisites":["Railroads"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 
