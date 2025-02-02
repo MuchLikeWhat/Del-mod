@@ -434,7 +434,7 @@
 			},
 			{
 				"name": "Steam Power",
-				"row": 1,
+				"row": 5,
 				"prerequisites":["Railroads"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
