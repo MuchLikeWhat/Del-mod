@@ -345,13 +345,13 @@
                 "techs": [
                         {
                         "name": "Archaeology",
-                        "row": 3,
+                        "row": 5,
                         "prerequisites": ["Navigation","Architecture","Economics","Metallurgy","Chemistry"],
                         "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
                         },
                         {
                                 "name": "Scientific Theory",
-                                "row": 5, 
+                                "row": 7, 
                                 "prerequisites": ["Navigation","Architecture","Economics","Metallurgy","Chemistry"],
                                 "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
                         },
@@ -367,7 +367,7 @@
                         {
                                 "name": "You... shall not... PASS!!",
                                 "row": 6,
-                                "prerequisites": ["Navigation","Scientific Theory"],
+                                "prerequisites": ["Archaeology","Scientific Theory"],
                                 "uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
                                 "quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
                         },
