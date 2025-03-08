@@ -338,7 +338,28 @@
         },
         {
                 "columnNumber": 9,
-                "era": "Renaissance era",
+                "era": "Industrial era",
+                "techCost": 1150,
+                "buildingCost": 250,
+                "wonderCost": 625,
+                "techs": [
+                        {
+                        "name": "Archaeology",
+                        "row": 2,
+                        "prerequisites": ["Navigation"],
+                        "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+                        },
+                        {
+                                "name": "Scientific Theory",
+                                "row": 4,
+                                "prerequisites": ["Architecture"],
+                                "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
+                        },
+                ]
+        },
+        {
+                "columnNumber": 10,
+                "era": "Industrial era",
                 "techCost": 99999999999,
                 "buildingCost": 99999,
                 "wonderCost": 999999,
@@ -346,31 +367,19 @@
                         {
                                 "name": "You... shall not... PASS!!",
                                 "row": 6,
-                                "prerequisites": ["Navigation","Architecture","Economics","Metallurgy","Chemistry",],
+                                "prerequisites": ["Navigation","Scientific Theory"],
                                 "uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
                                 "quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
                         },
                 ]
         },
         {
-                "columnNumber": 10,
+                "columnNumber": 11,
                 "era": "Industrial era",
-                "techCost": 001600,
-                "buildingCost": 00300,
-                "wonderCost": 00750,
+                "techCost": 999991600,
+                "buildingCost": 999900300,
+                "wonderCost": 9999900750,
                 "techs": [
-                        {
-                                "name": "Archaeology",
-                                "row": 2,
-                                "prerequisites": ["You... shall not... PASS!!"],
-                                "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
-                        },
-                        {
-                                "name": "Scientific Theory",
-                                "row": 4,
-                                "prerequisites": ["You... shall not... PASS!!"],
-                                "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
-                        },
                         {
                                 "name": "Industrialization",
                                 "row": 6,
@@ -398,7 +407,7 @@
                 ]
         },
         {
-                "columnNumber": 11,
+                "columnNumber": 12,
                 "era": "Industrial era",
                 "techCost": 992350,
                 "buildingCost": 99360,
@@ -407,7 +416,7 @@
                         {
                                 "name": "Biology",
                                 "row": 2,
-                                "prerequisites": ["Archaeology","Scientific Theory"],
+                                "prerequisites": ["Archaeology"],
                                 "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
                         },
                         {
@@ -420,7 +429,7 @@
                                 "name": "Steam Power",
                                 "row": 6,
                                 "uniques": ["[+1] Movement <for [Embarked] units>"],
-                                "prerequisites": ["Industrialization","Scientific Theory","Rifling"],
+                                "prerequisites": ["Industrialization","Rifling"],
                                 "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
                         },
                         {
@@ -432,7 +441,7 @@
                 ]
         },
         {
-                "columnNumber": 12,
+                "columnNumber": 13,
                 "era": "Modern era",
                 "techCost": 993100,
                 "buildingCost": 9500,
@@ -471,7 +480,7 @@
                 ]
         },
         {
-                "columnNumber": 13,
+                "columnNumber": 14,
                 "era": "Modern era",
                 "techCost": 994100,
                 "buildingCost": 99500,
@@ -504,7 +513,7 @@
                 ]
         },
         {
-                "columnNumber": 14,
+                "columnNumber": 15,
                 "era": "Atomic era",
                 "techCost": 9995100,
                 "buildingCost": 99500,
@@ -537,7 +546,7 @@
                 ]
         },
         {
-                "columnNumber": 15,
+                "columnNumber": 16,
                 "era": "Atomic era",
                 "techCost": 9996400,
                 "buildingCost": 99500,
@@ -570,7 +579,7 @@
                 ]
         },
         {
-                "columnNumber": 16,
+                "columnNumber": 17,
                 "era": "Information era",
                 "techCost": 9997700,
                 "buildingCost": 99750,
@@ -617,7 +626,7 @@
         },
 
         {
-                "columnNumber": 17,
+                "columnNumber": 18,
                 "era": "Information era",
                 "techCost": 9998800,
                 "buildingCost": 99750,
@@ -656,7 +665,7 @@
                 ]
         },
         {
-                "columnNumber": 18,
+                "columnNumber": 19,
                 "era": "Future era",
                 "techCost": 999500,
                 "buildingCost": 99750,
