@@ -345,14 +345,14 @@
                 "techs": [
                         {
                         "name": "Archaeology",
-                        "row": 2,
-                        "prerequisites": ["Navigation"],
+                        "row": 3,
+                        "prerequisites": ["Navigation","Architecture","Economics","Metallurgy","Chemistry"],
                         "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
                         },
                         {
                                 "name": "Scientific Theory",
-                                "row": 4,
-                                "prerequisites": ["Architecture"],
+                                "row": 5, 
+                                "prerequisites": ["Navigation","Architecture","Economics","Metallurgy","Chemistry"],
                                 "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
                         },
                 ]
@@ -416,13 +416,13 @@
                         {
                                 "name": "Biology",
                                 "row": 2,
-                                "prerequisites": ["Archaeology"],
+                                "prerequisites": ["Industrialization"],
                                 "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
                         },
                         {
                                 "name": "Electricity",
                                 "row": 3,
-                                "prerequisites": ["Scientific Theory"],
+                                "prerequisites": ["Industrialization"],
                                 "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
                         },
                         {
